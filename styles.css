@@ -1,0 +1,158 @@
+.body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(123,99,233);
+    background: radial-gradient(circle, rgba(123,99,233,1) 0%, rgba(54,12,162,1) 100%);
+    padding: 2rem;
+    color:white;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.text-opac {
+    opacity: 50%;
+}
+
+.circle {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    background: rgb(97,67,236);
+    background: radial-gradient(circle, rgba(97,67,236,1) 0%, rgba(62,19,170,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-text {
+    padding-bottom: 1.5rem;
+    opacity: 80%;
+}
+
+.score-text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.grade {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.stats {
+    text-align: center;
+    opacity: 80%;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 1.5rem;
+    width: 50%;
+    border-radius: 20px;
+    background-color: rgb(240, 248, 248);
+    border-radius: 0px 12px 12px 0px;
+}
+
+.catgory {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    padding: 1rem;
+    background-color: rgba(238, 177, 177, 0.815);
+    border-radius: 12px;
+    margin-bottom: .5rem;
+    
+}
+
+.catgory2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    padding: 1rem;
+    background-color: rgba(234, 238, 177, 0.815);
+    border-radius: 12px;
+    margin-bottom: .5rem;
+}
+
+.catgory3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    padding: 1rem;
+    background-color: rgba(184, 238, 177, 0.815);
+    border-radius: 12px;
+    margin-bottom: .5rem;
+}
+
+.catgory4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    padding: 1rem;
+    background-color: rgba(177, 186, 238, 0.815);
+    border-radius: 12px;
+    margin-bottom: .5rem;
+}
+
+.score-bold {
+    font-weight: bold;
+    color: rgb(18, 0, 85);
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.yellow {
+    color: yellow;
+    font-weight: bold;
+}
+
+.green {
+    color: green;
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+    font-weight: bold;
+}
+
+.cta {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    border-radius: 24px;
+    background-color: rgb(36, 5, 109);
+    color: white;
+}
